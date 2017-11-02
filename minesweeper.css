@@ -1,0 +1,46 @@
+header {
+	background-color : #F3FFBD;
+	margin : 0px; 
+}
+h1 {
+		color : #247BA0;
+		font-family: Arial;
+		font-weight: bolder;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0px;
+		padding : 10px;
+	}
+
+section {
+	background-color : #247BA0;
+	padding : 100px;
+	text-align : center;
+	margin : 0;
+}
+
+section button {
+	background-color: #70C1B3;
+	width : 30px;
+	height : 30px;
+	margin : 1px;
+	vertical-align : top;
+	font-family : Arial;
+	font-size : 14px;
+	border: none;
+}
+
+#message {
+	text-align: center;
+	padding: 30px;
+	background-color: #70C1B3;
+
+
+}
+#message button {
+	background-color: white;
+	padding: 10px;
+	border: none;
+	margin-left: 30px;
+	
+}
