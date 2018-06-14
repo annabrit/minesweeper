@@ -1,3 +1,5 @@
+window.onload = function(){
+
 //INTERNAL LOGIC
 //global values for gameboard dimensions and symbols
 var minesweeperRows = 10;
@@ -158,6 +160,7 @@ function endGame (message){
     button.setAttribute("disabled", true);
   });
  }
+}
 
 function isWin (){
   for (var i = 0; i < minesweeperRows; i++){
