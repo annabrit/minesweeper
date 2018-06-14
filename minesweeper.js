@@ -146,7 +146,7 @@ function endGame (message){
   text.innerText = message;
   text.style["font-family"] = "Arial";
   text.style["color"] = "#247BA0";
-  text.style["font-size"] = 16px
+  text.style["font-size"] = "16px"
   var resetButton = document.createElement("button");
   resetButton.innerText = "play again?";
   resetButton.onclick = function(){
